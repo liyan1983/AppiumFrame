@@ -1,0 +1,7 @@
+goto_home:
+  - by: xpath
+    locator: '//*[@text="微信登录"]'
+    action: click
+  - by: xpath
+    locator: '//*[contains(@text,"进入")]'
+    action: click

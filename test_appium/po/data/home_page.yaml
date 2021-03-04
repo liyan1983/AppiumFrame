@@ -1,0 +1,4 @@
+home_page:
+  - by: xpath
+    locator: '//*[@text="通讯录" and @resource-id="com.tencent.wework:id/dnh"]'
+    action: click

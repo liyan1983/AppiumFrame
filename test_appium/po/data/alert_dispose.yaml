@@ -1,0 +1,5 @@
+alert_displse:
+  - by: xpath
+    locator: '//*[@text="允许"]'
+    action: click
+    text: 允许

@@ -1,0 +1,38 @@
+add_members:
+  - by: xpath
+    locator: '//*[@text="手动输入添加"]'
+    action: click
+  - by: xpath
+    locator: '//*[@text="必填"]'
+    action: send_keys
+    content: 花花
+  - by: xpath
+    locator: '//*[@text="性别"]/..//android.widget.LinearLayout'
+    action: click
+  - by: xpath
+    locator: '//*[@text="女"]'
+    action: click
+  - by: xpath
+    locator: '//*[contains(@text,"邮箱")]/..//android.widget.EditText'
+    action: send_keys
+    content: 12343@qqc.om
+  - by: xpath
+    locator: '//*[@text="地址"]/..//android.widget.LinearLayout/android.widget.TextView'
+    action: click
+  - by: xpath
+    locator: '//*[contains(@text,"请输入公司地址")]'
+    action: send_keys
+    content: 小红门
+  - by: xpath
+    locator: '//android.widget.ListView/android.widget.RelativeLayout[1]'
+    action: click
+  - by: xpath
+    locator: '//*[@text="确定"]'
+    action: click
+  - by: xpath
+    locator: '//*[@text="保存"]'
+    action: click
+  - by: xpath
+    locator: '//*[contains(@text,"添加成功")]'
+    action: text
+    check_text: 添加成功
